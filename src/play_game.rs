@@ -53,7 +53,7 @@ impl Plugin for Schedule
                 ),
                 // .run_if( misc::DEBUG ),
  
-                (   //
+                (   //Playerを操作する
                     (   player::catch_input_keyboard, //キー入力
                         // player::catch_input_mouse,    //マウス
                         // player::catch_input_gamepad,  //ゲームパッド
@@ -65,8 +65,7 @@ impl Plugin for Schedule
                 .chain()
             )
             .run_if( in_state( MyState::MainLoop ) )
-        )
-        ;
+        );
     }
 }
 
