@@ -1,2 +1,2 @@
-## [Zenn] chip12. 3D迷路を眺める(まだ移動できない)
-https://zenn.dev/hyoi/articles/6ab694d874f7bd
+## [Zenn] chip14. 一人称視点カメラで3D迷路を歩き回る
+https://zenn.dev/hyoi/articles/2268294818cf05
